@@ -6,3 +6,13 @@ Universal Selector
     padding: 0;
     box-sizing: border-box;
 }
+
+Img[alt="Logo"] {
+    cursor: pointer;
+    width:10rem;
+    aspect-ratio: 1/1;  
+}
+
+h1:is(span){
+    display: block;
+}
